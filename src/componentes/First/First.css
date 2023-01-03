@@ -38,6 +38,9 @@
   .iuri {
     font-size: 5rem;
   }
+  .setita img {
+    padding-top: 20vh;
+  }
 }
 @media only screen and (max-width: 500px) {
   .iuri {
@@ -51,5 +54,8 @@
   }
   .iuri {
     font-size: 3.2rem;
+  }
+  .setita img {
+    padding-top: 15vh;
   }
 }

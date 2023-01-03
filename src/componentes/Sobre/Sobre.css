@@ -4,3 +4,20 @@
 .modal-text-color {
   color: black;
 }
+.texto-sobre {
+  font-size: 2rem;
+}
+.button-sobre {
+  font-size: 1.3rem;
+  border: solid 2px #fff;
+  background-color: #252525;
+  color: #fff;
+  font-weight: 600;
+}
+.button-sobre:hover {
+  font-size: 1.3rem;
+  border: solid 2px rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}

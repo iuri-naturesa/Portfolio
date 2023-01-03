@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="container-fluid">
         <a className="navbar-brand" href="#" id="nav-iuri"></a>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler collapsed"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavAltMarkup"
@@ -20,16 +20,16 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto nav-links-cima">
-            <a className="nav-link biubiu" href="#">
+            <a className="nav-link biubiu" href="#sobre-id">
               <span className="">Sobre</span>
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#skills-id">
               <span className="biubiu">Skills</span>
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#portfolio-id">
               <span className="biubiu">Portfolio</span>
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#contato-id">
               <span className="biubiu">Contato</span>
             </a>
           </div>
