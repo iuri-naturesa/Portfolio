@@ -1,0 +1,87 @@
+#navinha {
+  color: #fff;
+  padding-top: 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  background-color: #212121;
+}
+
+#navinha div div a {
+  color: #fff;
+  font-size: 1.4rem;
+  margin-right: 30px;
+}
+#nav-iuri {
+  color: #fff;
+}
+
+.biubiu {
+  padding: 10px 20px;
+  --s: 0.08em; /* the thickness of the line */
+  --c: #ffffff; /* the color */
+
+  color: rgb(255, 255, 255);
+  padding-bottom: var(--s);
+  background: linear-gradient(90deg, var(--c) 50%, #000 0)
+      calc(100% - var(--_p, 0%)) / 200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100% / var(--_p, 0%) var(--s) no-repeat;
+  -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+  transition: 0.5s;
+}
+.biubiu:hover {
+  --_p: 100%;
+}
+
+/* Menu hamburguer */
+
+.navbar-toggler {
+  border: 0;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
+.toggler-icon {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  display: block;
+  transition: all 0.2s;
+}
+
+.middle-bar {
+  margin: 5px auto;
+}
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 18% 15%;
+}
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 5% 10%;
+}
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+.navbar-toggler.collapsed .toggler-icon {
+  background-color: #777777;
+}
+@media only screen and (max-width: 991px) {
+  #navinha {
+    padding-top: 1rem;
+  }
+}

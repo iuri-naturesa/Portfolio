@@ -1,0 +1,27 @@
+.skills {
+  padding-top: 15vh;
+}
+.conteudos {
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
+  padding-left: 15vw;
+  padding-bottom: 10vh;
+}
+.tags div {
+  border: solid 2px rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 20px 0 8px 0;
+  margin: 15px;
+}
+.tag-inv {
+  opacity: 0;
+}
+.col img {
+  width: 4rem;
+}
+
+@media screen and (max-width: 500px) {
+  .conteudos {
+    font-size: 3.5rem;
+  }
+}

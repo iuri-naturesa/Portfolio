@@ -1,0 +1,45 @@
+.portfolio {
+  margin-top: 10vh;
+  background-color: #f3f3f3;
+}
+.cardinho {
+  width: 90%;
+  margin-bottom: 50px;
+}
+.cardinhogit {
+  width: 30%;
+  margin-bottom: 50px;
+  height: 70%;
+}
+.port-shadow {
+  font-family: "Poppins", sans-serif;
+  color: #252525;
+  font-size: 5rem;
+  padding-left: 15vw;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+  margin-bottom: 10vh;
+  background: rgb(37, 37, 37);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(37, 37, 37, 1) 12%,
+    rgba(243, 243, 243, 1) 12%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(37, 37, 37, 1) 12%,
+    rgba(243, 243, 243, 1) 12%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(37, 37, 37, 1) 12%,
+    rgba(243, 243, 243, 1) 12%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#252525",endColorstr="#f3f3f3",GradientType=1);
+}
+
+@media only screen and (max-width: 500px) {
+  .port-shadow {
+    font-size: 3.5rem;
+  }
+}
